@@ -21,3 +21,9 @@ left.addEventListener("click", function(){
   var translateAmount = currentSlide * 16.66
   slideTrack.style.transform = `translateX(-${translateAmount}%)`
 })
+
+const redirectAbout = document.querySelector("#about-tab");
+
+redirectAbout.addEventListener("click", function(){
+  window.location.href = "https://rsolanki3.github.io/about.html";
+})
