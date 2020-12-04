@@ -1,5 +1,376 @@
+html {
+  background-color: #f8f8ff;
+}
+nav {
+  background-color: #234155;
+  color: white;
+  height: 75px;
+}
+
+h2 {
+  text-align: left;
+  font-size: 30px;
+  text-decoration: underline;
+  padding: 10px;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: left;
+  margin: 5px;
+}
+
 body {
-  background-color: green;
+font-family: 'Nunito Sans', sans-serif;
+margin: 10px;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+legend {
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+}
+
+label {
+  font-weight: bold;
+  color: white;
+  margin-left: 8px;
+}
+
+input {
+  height:30px;
+  background-color: #f8f8ff;
+  border: 3px solid black;
+  border-radius: 3px;
+  margin: 5px;
+}
+
+input[type=submit] {
+  margin-left: 150px;
+  margin-right: 150px;
+
+}
+
+hr {
+  border: 1px solid white;
+  width: 90%;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #234155;
+  color: white;
+  font-size: 14px;
+  height: 80px;
+}
+/* NAVIGATION MENU */
+
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-list {
   display: flex;
   justify-content: space-around;
+  align-items: center;
+  width: 350px;
+}
+
+.nav-item {
+  font-size: 18px;
+  border: 1px solid white;
+  padding: 12px;
+  cursor: pointer;
+}
+
+.nav-item:hover {
+  cursor: pointer;
+  opacity: .5;
+
+}
+
+#logo {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+
+/* FIRST SECTION */
+
+.first-title {
+  margin: 15px 0px;
+  padding: 0px 100px;
+  font-size: 52px;
+  font-weight: 700px;
+  text-align: left;
+  text-transform: uppercase;
+  background: #234155;
+  color: white;
+  border-radius: 10px;
+}
+
+.carousel-nav {
+  display:flex;
+  justify-content: space-between;
+}
+
+.carousel {
+    width: 100%;
+    margin: 0px;
+    overflow: hidden;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+
+.carousel-track {
+  width: 600%;
+  display: flex;
+  transform: translateX(0%);
+  transition: 0.4s;
+}
+
+.carousel-item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+  flex: 1;
+}
+
+.carousel_info  {
+  background-color: white;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.carousel_image {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.carousel_image img{
+  width: 60%;
+}
+
+.carousel_title {
+    margin: 5px;
+    font-size: 32px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    color: #2C2C2C;
+}
+
+.carousel_description {
+    font-size: 18px;
+    color: #7e7e7e;
+    margin: 0px 10px;
+}
+
+.carousel_btn {
+    color: #2C2C2C;
+    letter-spacing: 3px;
+    font-size: 13px;
+    text-transform: uppercase;
+    margin: 25px 10px;
+    text-decoration: none;
+}
+
+.btn {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.carousel_btn:hover {
+  color: blue;
+  font-weight: bolder;
+}
+
+.arrows {
+  z-index: 2;
+}
+
+.arrows:hover {
+  cursor: pointer;
+  opacity: .25;
+}
+
+#left {
+  position: relative;
+  top: 300px;
+  left: 60px;
+}
+
+#right {
+  position: relative;
+  top: 300px;
+  right: 60px;
+}
+
+#first-section {
+    margin: 0;
+    padding: 50px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+/* SECOND SECTION */
+
+.background-container {
+  display: flex;
+  justify-content: center;
+  padding: 35px;
+  background-color: lightgray;
+}
+
+.background-container p {
+  margin-right: 10px;
+}
+
+#background-pic {
+  width: 500px;
+  background-position: center;
+  background-size: cover;
+}
+
+#second-section {
+  background-color: lightgray;
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0px;
+}
+
+#second-title {
+  font-size: 30px;
+  padding-bottom: 0px;
+}
+
+/* THIRD SECTION */
+
+.collab-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 25px 0px;
+}
+
+.collab {
+  width: 300px;
+}
+
+.collab-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+}
+
+.spaceship {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("https://spaceship.run/images/landing-hero.jpg");
+  height: 200px;
+  width: 300px;
+  background-position: center;
+  background-size: cover;
+}
+
+.calendly-spotlight {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://miro.medium.com/max/2000/1*M-KO13v-bDI5OGfkFX6W4A.jpeg");
+  height: 200px;
+  width: 300px;
+  background-position: center;
+  background-size: cover;
+}
+
+.calendly-wit {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://miro.medium.com/max/1400/1*uEh4z9HvRS_Tu_ZiqR_d4Q.jpeg");
+  height: 200px;
+  width: 300px;
+  background-position: center;
+  background-size: cover;
+}
+
+#third-break {
+  border: 1px solid gray;
+  width: 90%;
+}
+
+#third-section {
+  padding-top: 50px;
+}
+
+#third-title {
+  text-align: center;
+  font-size: 50px;
+  padding: 0px;
+}
+
+/* SIDE SECTION */
+
+.side-content {
+  position: absolute;
+  top: 100px;
+  right: 0px;
+  width: 30%;
+  background-color: #234155;
+  height: 950px;
+  margin: 0px 15px;
+}
+
+.side-title {
+  font-size: 35px;
+  text-align: center;
+}
+
+.radzpic {
+  width: 350px;
+  border-radius: 10px;
+  margin: 30px;
+  margin-bottom: 0px;
+
+}
+
+.side-top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 350px;
+}
+
+.side-title {
+  color: white;
+  font-size: 45px;
+  margin: 20px 10px;
 }

@@ -1,13 +1,23 @@
-const button = document.querySelector("#clickMe");
-const friends = ["Rinku", "Ruchi", "Brooke", "Ginna", "Megan", "Amy"];
+const right = document.getElementById("right");
 
-button.addEventListener("click", function(){
-    for (let i = 0; i < friends.length; i++){
-      const user = document.createElement("h4");
-      user.innerText = friends[i];
-      document.body.appendChild(user);
-    }
-    const heading= document.createElement("h2");
-    heading.innerText = "I've been clicked";
-    document.body.appendChild(heading)
+var currentSlide = 0;
+
+var slideTrack = document.getElementById("slide-track");
+
+right.addEventListener("click", function(){
+  if (currentSlide < 5) {
+  currentSlide ++}
+  else {currentSlide =0;}
+  var translateAmount = currentSlide * 16.66
+  slideTrack.style.transform = `translateX(-${translateAmount}%)`
+})
+
+const left = document.getElementById("left")
+
+left.addEventListener("click", function(){
+  if (currentSlide >0) {
+  currentSlide-- }
+  else {currentSlide = 5;}
+  var translateAmount = currentSlide * 16.66
+  slideTrack.style.transform = `translateX(-${translateAmount}%)`
 })

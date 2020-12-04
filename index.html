@@ -1,12 +1,179 @@
 <!DOCTYPE html>
-  <html>
-    <head>
-      <title> Testing Shit </title>
-      <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-      <h1> My portfolio is the best </h1>
-      <button id="clickMe">CLICK</button>
-      <script type = "text/javascript" src="script.js"></script>
-    </body>
-  </html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
+    <title>Radhika's Portfolio - QA Knowledge</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header>
+      <nav class="nav-menu">
+        <div class="logo">
+          <img src="https://i.imgur.com/Z0N3htX.png" alt="Portfolio Logo" id="logo"/>
+        </div>
+        <div class="nav-list">
+          <div class="nav-item">Home</div>
+          <div class="nav-item">About</div>
+          <div class="nav-item">Blogs</div>
+          <div class="nav-item">Misc</div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="main-content" id="first-section">
+        <h1 class="first-title">Featured Blogs</h1>
+        <div class="carousel">
+          <div class="carousel-nav">
+            <img src="https://www.flaticon.com/svg/static/icons/svg/109/109618.svg" id="left" class="arrows" width="80"/>
+            <img src="https://www.flaticon.com/svg/static/icons/svg/109/109617.svg" id="right" class="arrows"width="80"/>
+          </div>
+
+          <div class="carousel-track" id="slide-track">
+            <div class="carousel-item carousel-1">
+              <div class="carousel_image"><img src="https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=2250&q=80" alt = "Blog Pic 1" /></div>
+              <div class="carousel_info">
+                <div class="carousel_container">
+                  <h2 class="carousel_title">Say it louder for people in the back</h2>
+                  <p class="carousel_description">When is it appropriate for QA to speak up? And how to make sure your voice will be heard.</p>
+                  <div class="btn">
+                    <a href="#" class="carousel_btn">Read More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item carousel-2">
+              <div class="carousel_image"><img src="https://images.unsplash.com/photo-1490111718993-d98654ce6cf7?ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80" alt = "Blog Pic 2"/> </div>
+              <div class="carousel_info">
+                <div class="carousel_container">
+                  <h2 class="carousel_title">Just the two of us</h2>
+                  <p class="carousel_description">The difference in value between manual and automated testing and why your team needs both.</p>
+                  <div class="btn">
+                    <a href="#" class="carousel_btn">Read More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item carousel-3">
+              <div class="carousel_image"><img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2252&q=80" alt = "Blog Pic 3"/></div>
+              <div class="carousel_info">
+                <div class="carousel_container">
+                  <h2 class="carousel_title">CYA: Covering Your A$$</h2>
+                  <p class="carousel_description">Test coverage for your code is insanely important. Why you need unit, integration, e2e, and regression test scripts.</p>
+                  <div class="btn">
+                    <a href="#" class="carousel_btn">Read More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item carousel-4">
+              <div class="carousel_image"><img src="https://images.unsplash.com/photo-1503428593586-e225b39bddfe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80" alt = "Blog Pic 4"/></div>
+              <div class="carousel_info">
+                <div class="carousel_container">
+                  <h2 class="carousel_title">But if you teach a man to fish...</h2>
+                  <p class="carousel_description">Sharing your testing notes with the team isn't just about transparency. Learn how to teach your team "quality".</p>
+                  <div class="btn">
+                    <a href="#" class="carousel_btn">Read More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item carousel-5">
+              <div class="carousel_image"><img src="https://images.unsplash.com/photo-1561900478-5001f6b4d8ed?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2252&q=80" alt = "Blog Pic 5"/></div>
+              <div class="carousel_info">
+                <div class="carousel_container">
+                  <h2 class="carousel_title">Risky Business</h2>
+                  <p class="carousel_description">What is the difference between "Risk Assessment" vs "Risk Mitigation" when building a feature.</p>
+                  <div class="btn">
+                    <a href="#" class="carousel_btn">Read More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item carousel-6">
+              <div class="carousel_image"><img src="https://images.unsplash.com/photo-1502570149819-b2260483d302?ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80" alt = "Blog Pic 6"/></div>
+              <div class="carousel_info">
+                <div class="carousel_container">
+                  <h2 class="carousel_title">Point it...but make it fashion</h2>
+                  <p class="carousel_description">Why it's valuable to include QA in story pointing in your sprint planning session.</p>
+                  <div class="btn">
+                    <a href="#" class="carousel_btn">Read More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="main-content" id="second-section">
+        <div class="background-container">
+          <div class="about-copy">
+            <h2 id="second-title">Stumbling Into QA: How I Learned about QA and the SDLC</h2>
+            <p class="background-copy">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Condimentum mattis pellentesque id nibh. Nulla posuere sollicitudin aliquam ultrices sagittis orci a scelerisque. Amet est placerat in egestas erat imperdiet. Quam vulputate dignissim suspendisse in est ante in. Sapien pellentesque habitant morbi tristique senectus et netus. <br></br> Enim ut sem viverra aliquet eget sit. Cras semper auctor neque vitae tempus quam pellentesque nec nam. Quisque egestas diam in arcu cursus euismod quis. Eget lorem dolor sed viverra. Sit amet justo donec enim diam vulputate ut.
+            Commodo viverra maecenas accumsan lacus vel facilisis volutpat est.
+            </p>
+            <a href=#” target="_blank" class="about-button"> Read More</a>
+          </div>
+          <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80" alt="Background Picture" id="background-pic">
+        </div>
+      </section>
+      <section class="main-content" id="third-section">
+        <hr id="third-break">
+        <h2 id="third-title">Collaborations</h2>
+        <div class ="collab-container">
+          <div class="collab">
+            <div id="spaceship-collab">
+              <h4 class="collab-title spaceship">Spaceship: Benefits of CD</h4>
+              <p class="collab-copy">The quality game changer: benefits of Continuous Delivery for QA teams</p>
+            </div>
+          </div>
+          <div class="collab">
+            <div id="calendly-qa-collab">
+              <h4 class="collab-title calendly-spotlight">Calendly: Employee Spotlight</h4>
+              <p class="collab-copy">Radhika Solanki talks trading careers, becoming a success at a startup and traveling the world with her sister</p>
+            </div>
+          </div>
+          <div class="collab">
+            <div id="calendly-wit-collab">
+              <h4 class="collab-title calendly-wit">Calendly: Women in Technology</h4>
+              <p class="collab-copy">Discussing Careers in Tech with Women at Calendly</p>
+            </div>
+          </div>
+        </div>
+      </section>
+        <section class="side-content">
+        <div class="side-top">
+          <img src="https://i.imgur.com/4Xm2Vym.jpg" alt="Picture of Radhika" class="radzpic" />
+          <h4 class="side-title">QA: Radhika Solanki</h4>
+        </div>
+        <div class="side-bottom">
+          <form class="contact-container">
+            <fieldset class="contact-form">
+              <legend>Stay in Touch: Contact Me</legend>
+              <label for="fname">First Name </label>
+              <input type="text" id="fname" placeholder="First Name">
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" placeholder="Last Name">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" placeholder="Your Email Address">
+              <input type="submit" value="Subscribe">
+            </fieldset>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <hr>
+      <p>&#169; 2020 Radhika Solanki</p>
+    </footer>
+    <script src="script.js" type="text/javascript" ></script>
+  </body>
+<html>
