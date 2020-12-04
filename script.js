@@ -29,3 +29,10 @@ const redirectBlogs = document.querySelector("#blogs-tab");
 redirectBlogs.addEventListener("click", function(){
   window.location.href = "https://rsolanki3.github.io/blogs.html";
 })
+
+const redirectMisc = document.querySelector("#misc-tab");
+redirectBlogs.addEventListener("click", function(){
+  window.location.href = "https://rsolanki3.github.io/misc.html";
+})
+
+//need to figure out  why this doesn't work on the other pages and only from the home page
