@@ -31,7 +31,7 @@ redirectBlogs.addEventListener("click", function(){
 })
 
 const redirectMisc = document.querySelector("#misc-tab");
-redirectBlogs.addEventListener("click", function(){
+redirectMisc.addEventListener("click", function(){
   window.location.href = "https://rsolanki3.github.io/misc.html";
 })
 
