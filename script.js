@@ -23,7 +23,11 @@ left.addEventListener("click", function(){
 })
 
 const redirectAbout = document.querySelector("#about-tab");
-
 redirectAbout.addEventListener("click", function(){
   window.location.href = "https://rsolanki3.github.io/about.html";
+})
+
+const redirectBlogs = document.querySelector("#blogs-tab");
+redirectBlogs.addEventListener("click", function(){
+  window.location.href = "https://rsolanki3.github.io/blogs.html";
 })
