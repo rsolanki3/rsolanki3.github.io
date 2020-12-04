@@ -1,7 +1,5 @@
 const right = document.getElementById("right");
-
 var currentSlide = 0;
-
 var slideTrack = document.getElementById("slide-track");
 
 right.addEventListener("click", function(){
