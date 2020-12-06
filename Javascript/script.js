@@ -6,17 +6,17 @@ right.addEventListener("click", function(){
   if (currentSlide < 5) {
   currentSlide ++}
   else {currentSlide =0;}
-  var translateAmount = currentSlide * 16.66
+  var translateAmount = currentSlide * 16.667
   slideTrack.style.transform = `translateX(-${translateAmount}%)`
 })
 
-const left = document.getElementById("left")
+const left = document.getElementById("left");
 
 left.addEventListener("click", function(){
   if (currentSlide >0) {
   currentSlide-- }
   else {currentSlide = 5;}
-  var translateAmount = currentSlide * 16.66
+  var translateAmount = currentSlide * 16.667
   slideTrack.style.transform = `translateX(-${translateAmount}%)`
 })
 
