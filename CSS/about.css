@@ -1,0 +1,124 @@
+html {
+  background-color: #f8f8ff;
+}
+
+nav {
+  background-color: #101518;
+  color: white;
+  height: 100px;
+}
+
+h2 {
+  text-align: left;
+  font-size: 30px;
+  text-decoration: underline;
+  padding: 10px;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: left;
+  margin: 5px;
+}
+
+body {
+font-family: 'Nunito Sans', sans-serif;
+margin: 10px;
+}
+
+
+hr {
+  border: 1px solid white;
+  width: 90%;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #101518;
+  color: white;
+  font-size: 14px;
+  height: 100px;
+}
+/* NAVIGATION MENU */
+
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 350px;
+}
+
+.nav-item {
+  font-size: 18px;
+  border: 1px solid white;
+  padding: 12px;
+  cursor: pointer;
+}
+
+.nav-item:hover {
+  cursor: pointer;
+  opacity: .5;
+}
+
+#logo {
+  width: 400px;
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+
+/*///// ABOUT ME PAGE /////*/
+
+.h1-AM {
+  font-size: 200px;
+  color: white;
+}
+
+.AM_top-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=2613&q=80" );
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.AM_second-section {
+  height: 750px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+}
+
+.AM_background-title {
+  font-size: 50px;
+  margin-right: 20px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 150px 10px;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url("https://images.unsplash.com/photo-1605954966481-1be0ce966239?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80" );
+  background-size: cover;
+  background-position: center;
+}
+
+.AM_section-cut {
+    border: 2px solid black;
+    width: 90%;
+    margin: 10px;
+}
