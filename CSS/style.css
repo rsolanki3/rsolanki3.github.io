@@ -115,6 +115,23 @@ footer {
   margin: 10px;
 }
 
+#responsive-tab {
+  display:none;
+}
+
+@media (max-width: 1200px) {
+  .nav-item {
+    display: none;
+  }
+  #responsive-tab {
+    display:block;
+  }
+  .nav-list {
+    justify-content: flex-end;
+    margin: 20px;
+  }
+}
+
 /*///// HOME PAGE /////*/
 
 /* FIRST SECTION */
