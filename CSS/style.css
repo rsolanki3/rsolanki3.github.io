@@ -124,7 +124,6 @@ footer {
     padding:0px;
     overflow: hidden;
     position: relative;
-
 }
 
 .carousel-track {
@@ -225,7 +224,6 @@ footer {
   background-color: lightgray;
   border-radius: 5px;
   padding: 10px;
-
 }
 
 #first-section {
@@ -234,6 +232,153 @@ footer {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+}
+
+@media (max-width: 1180px) {
+  .carousel {
+        width: 100%;
+        margin: 0px;
+        overflow: hidden;
+        position: relative;
+        background-color: rgba(255, 255, 255, 0.5);
+        border: 1px solid lightgray;
+        border-radius: 10px;
+    }
+
+    .carousel-item {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      overflow: hidden;
+      flex: 1;
+    }
+
+    .carousel_info  {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+    }
+
+    .carousel_image {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .carousel_image img{
+      width: 100%;
+    }
+
+    .carousel_title {
+        margin: 5px;
+        font-size: 32px;
+        letter-spacing: 2px;
+        font-weight: 600;
+        color: #2C2C2C;
+    }
+
+    .carousel_description {
+        font-size: 18px;
+        color: #7e7e7e;
+        margin: 0px 10px;
+    }
+
+    .carousel_btn {
+        color: #2C2C2C;
+        letter-spacing: 3px;
+        font-size: 13px;
+        text-transform: uppercase;
+        margin: 25px 10px;
+        text-decoration: none;
+    }
+
+    #left {
+      position: absolute;
+      top: 40px;
+      left: 40px;
+    }
+
+    #right {
+      position: absolute;
+      top: 40px;
+      left: 120px;
+
+    }
+
+    #first-section {
+        margin: 0;
+        padding: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+}
+
+@media (max-width: 960px){
+  .carousel-item img{
+    display:none;
+  }
+
+  #left {
+    position: absolute;
+    top: 190px;
+    left:30px;
+  }
+
+  #right {
+    position: absolute;
+    top: 190px;
+    left:100px;
+  }
+}
+
+@media (max-width: 750px){
+  #left {
+    position: absolute;
+    top: 240px;
+    left:30px;
+  }
+
+  #right {
+    position: absolute;
+    top: 240px;
+    left:100px;
+  }
+
+}
+
+@media (max-width: 590px){
+  #left {
+    position: absolute;
+    top: 260px;
+    left:30px;
+  }
+
+  #right {
+    position: absolute;
+    top: 260px;
+    left:100px;
+  }
+}
+
+@media (max-width: 480px){
+  #left {
+    position: absolute;
+    top: 300px;
+    left:20px;
+  }
+
+  #right {
+    position: absolute;
+    top: 300px;
+    left:90px;
+  }
 }
 
 /* SECOND SECTION */
@@ -293,6 +438,52 @@ input:hover {
   padding: 50px 0px;
 }
 
+@media (max-width: 1200px){
+  .second-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .radzpic {
+    display: none;
+  }
+  .second-title {
+    font-size: 60px;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  form {
+    height: 300px;
+    padding: 40px 100px;
+  }
+
+  input {
+    width: 100%;
+    margin: 5px;
+  }
+
+input[type=email] {
+  width: 100%;
+  }
+}
+
+@media (max-width: 768px){
+  .second-container {
+    padding: 50px;
+  }
+  .second-title {
+    font-size: 40px;
+    padding-bottom:10px;
+  }
+
+  form {
+    height: 250px;
+    padding: 30px 80px;
+  }
+}
+
 /* THIRD SECTION */
 
 .background-container {
@@ -324,6 +515,20 @@ input:hover {
   font-size: 40px;
   padding-bottom: 0px;
   font-weight: bolder;
+}
+
+@media (max-width: 1290px) {
+  #background-pic {
+    width:400px;
+    background-position: center;
+    background-size: cover;
+  }
+}
+
+@media (max-width: 1060px) {
+  #background-pic {
+    display:none;
+  }
 }
 
 /* FOURTH SECTION */
@@ -383,4 +588,46 @@ input:hover {
   text-align: center;
   font-size: 50px;
   padding: 0px;
+}
+
+@media (max-width: 960px){
+  .collab-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 25px 0px;
+  }
+
+  .spaceship,.calendly-spotlight,.calendly-wit {
+    height: 400px;
+    width: 600px;
+    background-position: center;
+    background-size: cover;
+  }
+  .collab {
+    width: 600px;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 768px){
+  .collab-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 25px 0px;
+  }
+
+  .spaceship,.calendly-spotlight,.calendly-wit {
+    height: 200px;
+    width:300px;
+    background-position: center;
+    background-size: cover;
+  }
+  .collab {
+    width: 300px;
+    font-size: 16px;
+  }
 }
