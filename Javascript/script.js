@@ -39,3 +39,18 @@ const redirectMisc = document.querySelector("#misc-tab");
 redirectMisc.addEventListener("click", function(){
   window.location.href = "https://rsolanki3.github.io/misc.html";
 })
+
+//Spaceship Link
+document.getElementById("spaceship-collab").addEventListener("click", function () {
+  window.open("https://updates.spaceship.run/post/benefits-of-continuous-delivery-for-qa-teams/", '_blank');
+})
+
+//Calendly QA
+document.getElementById("calendly-qa-collab").addEventListener("click", function () {
+  window.open("https://medium.com/calendly/radhika-solanki-talks-trading-careers-becoming-a-success-at-a-startup-and-traveling-the-world-with-415102855adf", '_blank');
+})
+
+//Calendly Women in Tech
+document.getElementById("calendly-wit-collab").addEventListener("click", function () {
+  window.open("https://medium.com/calendly/discussing-careers-in-tech-with-women-at-calendly-e3c3a14d361e", '_blank');
+})
