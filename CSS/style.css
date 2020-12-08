@@ -133,8 +133,14 @@ footer {
 }
 
 @media (max-width:660px){
-  .logo {
+  #logo {
     width:200px;
+  }
+}
+
+@media (max-width:350px){
+  #logo {
+    display: none;
   }
 }
 
@@ -404,6 +410,7 @@ footer {
     left:90px;
   }
 }
+
 
 /* SECOND SECTION */
 
