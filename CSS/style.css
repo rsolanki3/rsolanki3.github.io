@@ -132,6 +132,12 @@ footer {
   }
 }
 
+@media (max-width:660px){
+  .logo {
+    width:200px;
+  }
+}
+
 /*///// HOME PAGE /////*/
 
 /* FIRST SECTION */
@@ -384,6 +390,7 @@ footer {
   }
 }
 
+
 @media (max-width: 480px){
   #left {
     position: absolute;
@@ -498,6 +505,12 @@ input[type=email] {
   form {
     height: 250px;
     padding: 30px 80px;
+  }
+}
+
+@media (max-width: 480px) {
+  .second-container {
+    display: none;
   }
 }
 
