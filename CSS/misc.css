@@ -248,6 +248,25 @@ footer {
   font-size: 18px;
 }
 
+@media (max-width:1300px) {
+  .misc-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .extra-collab-container, .extra-project-container {
+    width: 90%;
+  }
+  .eC-pic img{
+    width: 450px;
+  }
+
+  .eP-pic img, .eP-description{
+    width: 575px;
+  }
+}
+
 @media (max-width: 780px) {
   .eC-pic img{
     width: 350px;
