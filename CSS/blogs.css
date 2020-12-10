@@ -243,10 +243,12 @@ footer {
     line-height: 1.25;
   }
   .box img {
-    display: none;
-    height: 0px;
+     display: none;
+  }
+  .box {
+    pointer-events:none;
   }
   .box:hover {
-    flex:0;
+    flex: none;
   }
 }
