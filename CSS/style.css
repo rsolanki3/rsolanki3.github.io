@@ -23,7 +23,8 @@ h3 {
 
 body {
 font-family: 'Nunito Sans', sans-serif;
-margin: 10px;
+margin: 0;
+padding:0;
 }
 
 form {
