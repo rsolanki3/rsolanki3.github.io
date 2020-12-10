@@ -22,9 +22,9 @@ h3 {
 }
 
 body {
-font-family: 'Nunito Sans', sans-serif;
-margin: 0;
-padding:0;
+  font-family: 'Nunito Sans', sans-serif;
+  margin: 0;
+  padding:0;
 }
 
 form {
@@ -625,6 +625,11 @@ input[type=email] {
 
 .collab {
   width: 300px;
+}
+
+.collab:hover {
+  transform: scale(1.25);
+  cursor: pointer;
 }
 
 .collab-title {
