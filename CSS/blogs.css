@@ -209,6 +209,16 @@ footer {
   height:100%;
 }
 
+@media (max-width: 1200px){
+    .BP_total-page  {
+      padding: 0px;
+  }
+    .box span {
+      font-size: 16px;
+      line-height: 2;
+  }
+}
+
 @media (max-width: 860px) {
   .box span {
     font-size: 14px;
@@ -222,7 +232,7 @@ footer {
   }
 }
 
-@media (max-width: 370px) {
+@media (max-width: 510px) {
   .row {
     display: flex;
     flex-direction: column;
@@ -230,6 +240,13 @@ footer {
   }
   .box span {
     font-size: 16px;
-    line-height: 1.5;
+    line-height: 1.25;
+  }
+  .box img {
+    display: none;
+    height: 0px;
+  }
+  .box:hover {
+    flex:0;
   }
 }
