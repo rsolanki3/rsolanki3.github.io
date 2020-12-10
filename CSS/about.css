@@ -152,3 +152,45 @@ footer {
     width: 90%;
     margin: 10px;
 }
+
+@media (max-width: 1175px) {
+  .AM_background-title {
+    display: none;
+  }
+}
+
+@media (max-width: 900px) {
+  .AM_section-cut {
+    display: none;
+  }
+  .h1-AM {
+    font-size: 150px;
+  }
+}
+
+@media (max-width: 675px) {
+  .h1-AM {
+    font-size: 100px;
+  }
+  .AM_background-content {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 440px) {
+  .h1-AM {
+    font-size: 75px;
+  }
+  .AM_background-content {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 340px) {
+  .h1-AM {
+    font-size: 50px;
+  }
+  .AM_background-content {
+    font-size: 11px;
+  }
+}
