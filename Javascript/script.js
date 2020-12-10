@@ -29,6 +29,11 @@ redirectHome.addEventListener("click", function(){
   window.location.href = "https://rsolanki3.github.io";
 })
 
+const logoRedirectHome = document.getElementById("logo");
+logoRedirectHome.addEventListener("click", function(){
+  window.location.href = "https://rsolanki3.github.io";
+})
+
 const redirectAbout = document.querySelector("#about-tab");
 redirectAbout.addEventListener("click", function(){
   window.location.href = "https://rsolanki3.github.io/about.html";
