@@ -1,3 +1,5 @@
+//Carousel Section
+
 const right = document.getElementById("right");
 var currentSlide = 0;
 var slideTrack = document.getElementById("slide-track");
@@ -19,6 +21,8 @@ left.addEventListener("click", function(){
   var translateAmount = currentSlide * 16.667
   slideTrack.style.transform = `translateX(-${translateAmount}%)`
 })
+
+//Navigation Menu
 
 const redirectHome = document.querySelector("#home-tab");
 redirectHome.addEventListener("click", function(){
@@ -54,3 +58,17 @@ document.getElementById("calendly-qa-collab").addEventListener("click", function
 document.getElementById("calendly-wit-collab").addEventListener("click", function () {
   window.open("https://medium.com/calendly/discussing-careers-in-tech-with-women-at-calendly-e3c3a14d361e", '_blank');
 })
+
+//Getting mobile responsive navigation menu set up
+
+const hiddenMenu = document.querySelector(".mobile-menu");
+const hamburgerIcon = document.getElementById("responsive-tab");
+const closeMenu = document.getElementById("close-mobile-menu");
+
+hamburgerIcon.addEventListener("click", function() {
+  hiddenMenu.classList.add("open-mobile-menu");
+ });
+
+closeMenu.addEventListener("click", function() {
+  hiddenMenu.classList.remove("open-mobile-menu");
+  });
