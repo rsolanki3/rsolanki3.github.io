@@ -476,14 +476,14 @@ footer {
 @media (max-width: 360px){
  #left {
     position: absolute;
-    top: 385px;
+    top: 340px;
     left:20px;
     width: 20px;
   }
 
   #right {
     position: absolute;
-    top: 385px;
+    top: 340px;
     left:70px;
     width: 20px;
   }
