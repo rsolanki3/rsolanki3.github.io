@@ -157,7 +157,7 @@ footer {
   overflow-y: scroll;
   padding: 15px 30px;
   position: fixed;
-  transition: all 0.5s ease-in-out;
+  transition: transform 0.25s ease-in-out;
   transform: translateX(100%);
   z-index: 3;
 }
